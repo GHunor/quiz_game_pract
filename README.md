@@ -1,1 +1,1 @@
-# quiz_game
+A small project for python and git practising
