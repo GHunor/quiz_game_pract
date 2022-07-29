@@ -4,18 +4,18 @@ print("Welcome to my quiz!")
 
 playing = input("Do you want to play? ")
 
-if playing != "yes":
+if playing.lower() != "yes":
   quit()
 
-print("Start now")
+print("Starting now:")
 answer = input("What does CPU stand for? ")
-if answer == "central processing unit":
+if answer.lower() == "central processing unit":
   print("Correct")
 else:
   print("Incorrect")
 
 answer = input("What does GPU stand for? ")
-if answer == "graphics processing unit":
+if answer.lower() == "graphics processing unit":
   print("Correct")
 else:
   print("Incorrect")
